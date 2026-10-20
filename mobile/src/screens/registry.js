@@ -10,6 +10,7 @@ import WarehouseScreen from './WarehouseScreen';
 import InvoiceScreen from './InvoiceScreen';
 import PaymentScreen from './PaymentScreen';
 import QuotationScreen from './QuotationScreen';
+import CustomsDeclarationScreen from './CustomsDeclarationScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -24,4 +25,5 @@ export default [
   { name: 'Invoice', title: 'Invoices', component: InvoiceScreen },
   { name: 'Payment', title: 'Payments', component: PaymentScreen },
   { name: 'Quotation', title: 'Quotations', component: QuotationScreen },
+  { name: 'CustomsDeclaration', title: 'Customs Declarations', component: CustomsDeclarationScreen },
 ];
