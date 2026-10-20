@@ -16,6 +16,7 @@ import DocumentScreen from './DocumentScreen';
 import TrackingScreen from './TrackingScreen';
 import CountryScreen from './CountryScreen';
 import CurrencyScreen from './CurrencyScreen';
+import NotificationScreen from './NotificationScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -36,4 +37,5 @@ export default [
   { name: 'Tracking', title: 'Tracking Events', component: TrackingScreen },
   { name: 'Country', title: 'Countries', component: CountryScreen },
   { name: 'Currency', title: 'Currencies', component: CurrencyScreen },
+  { name: 'Notification', title: 'Notifications', component: NotificationScreen },
 ];
