@@ -8,6 +8,7 @@ import PortScreen from './PortScreen';
 import CarrierScreen from './CarrierScreen';
 import WarehouseScreen from './WarehouseScreen';
 import InvoiceScreen from './InvoiceScreen';
+import PaymentScreen from './PaymentScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -20,4 +21,5 @@ export default [
   { name: 'Carrier', title: 'Carriers', component: CarrierScreen },
   { name: 'Warehouse', title: 'Warehouses', component: WarehouseScreen },
   { name: 'Invoice', title: 'Invoices', component: InvoiceScreen },
+  { name: 'Payment', title: 'Payments', component: PaymentScreen },
 ];
