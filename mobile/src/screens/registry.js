@@ -7,6 +7,7 @@ import ContainerScreen from './ContainerScreen';
 import PortScreen from './PortScreen';
 import CarrierScreen from './CarrierScreen';
 import WarehouseScreen from './WarehouseScreen';
+import InvoiceScreen from './InvoiceScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -18,4 +19,5 @@ export default [
   { name: 'Port', title: 'Ports', component: PortScreen },
   { name: 'Carrier', title: 'Carriers', component: CarrierScreen },
   { name: 'Warehouse', title: 'Warehouses', component: WarehouseScreen },
+  { name: 'Invoice', title: 'Invoices', component: InvoiceScreen },
 ];
