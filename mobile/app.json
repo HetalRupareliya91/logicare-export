@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "LogiCare Export",
+    "slug": "logicare-export",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "com.logicare.export" },
+    "ios": { "bundleIdentifier": "com.logicare.export" }
+  }
+}
