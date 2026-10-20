@@ -1,2 +1,5 @@
-// Module screens are registered here
-export default [];
+import ProductScreen from './ProductScreen';
+
+export default [
+  { name: 'Product', title: 'Products', component: ProductScreen },
+];
