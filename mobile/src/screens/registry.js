@@ -15,6 +15,7 @@ import HsCodeScreen from './HsCodeScreen';
 import DocumentScreen from './DocumentScreen';
 import TrackingScreen from './TrackingScreen';
 import CountryScreen from './CountryScreen';
+import CurrencyScreen from './CurrencyScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -34,4 +35,5 @@ export default [
   { name: 'Document', title: 'Documents', component: DocumentScreen },
   { name: 'Tracking', title: 'Tracking Events', component: TrackingScreen },
   { name: 'Country', title: 'Countries', component: CountryScreen },
+  { name: 'Currency', title: 'Currencies', component: CurrencyScreen },
 ];
