@@ -3,6 +3,7 @@ import CustomerScreen from './CustomerScreen';
 import SupplierScreen from './SupplierScreen';
 import OrderScreen from './OrderScreen';
 import ShipmentScreen from './ShipmentScreen';
+import ContainerScreen from './ContainerScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -10,4 +11,5 @@ export default [
   { name: 'Supplier', title: 'Suppliers', component: SupplierScreen },
   { name: 'Order', title: 'Orders', component: OrderScreen },
   { name: 'Shipment', title: 'Shipments', component: ShipmentScreen },
+  { name: 'Container', title: 'Containers', component: ContainerScreen },
 ];
