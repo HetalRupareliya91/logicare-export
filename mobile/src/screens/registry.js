@@ -13,6 +13,7 @@ import QuotationScreen from './QuotationScreen';
 import CustomsDeclarationScreen from './CustomsDeclarationScreen';
 import HsCodeScreen from './HsCodeScreen';
 import DocumentScreen from './DocumentScreen';
+import TrackingScreen from './TrackingScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -30,4 +31,5 @@ export default [
   { name: 'CustomsDeclaration', title: 'Customs Declarations', component: CustomsDeclarationScreen },
   { name: 'HsCode', title: 'HS Codes', component: HsCodeScreen },
   { name: 'Document', title: 'Documents', component: DocumentScreen },
+  { name: 'Tracking', title: 'Tracking Events', component: TrackingScreen },
 ];
