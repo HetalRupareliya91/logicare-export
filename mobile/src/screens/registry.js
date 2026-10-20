@@ -12,6 +12,7 @@ import PaymentScreen from './PaymentScreen';
 import QuotationScreen from './QuotationScreen';
 import CustomsDeclarationScreen from './CustomsDeclarationScreen';
 import HsCodeScreen from './HsCodeScreen';
+import DocumentScreen from './DocumentScreen';
 
 export default [
   { name: 'Product', title: 'Products', component: ProductScreen },
@@ -28,4 +29,5 @@ export default [
   { name: 'Quotation', title: 'Quotations', component: QuotationScreen },
   { name: 'CustomsDeclaration', title: 'Customs Declarations', component: CustomsDeclarationScreen },
   { name: 'HsCode', title: 'HS Codes', component: HsCodeScreen },
+  { name: 'Document', title: 'Documents', component: DocumentScreen },
 ];
